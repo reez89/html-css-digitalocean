@@ -7,6 +7,8 @@
 }
 #site_header{
     height: 500px;
+    background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-size: cover;
 }
 
 .bg_blue{
@@ -53,9 +55,7 @@
     text-align: center;
 }
 
-.btn{
-    padding: 0.375rem 5.75rem;
-}
+
 
 .txt_color_w{
     color: white;
@@ -65,4 +65,8 @@
 .txt_color_g{
     color: grey;
     width: 90%;
+}
+
+button.btn.btn-primary.form__ {
+    padding: .375rem 5.75rem !important;
 }
