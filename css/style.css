@@ -5,3 +5,64 @@
 .fl_right{
     float: right;
 }
+#site_header{
+    height: 500px;
+}
+
+.bg_blue{
+    background-color: blue;
+}
+
+
+.bg_green{
+ 
+    height: 500px;
+}
+
+.bg_red{
+ 
+    height: 500px;
+}
+.bg_white{
+    background-color: white;
+}
+
+
+#site_header{
+    position: relative;
+}
+
+.header_left{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 250px;
+}
+.deploy {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.btn{
+    padding: 0.375rem 5.75rem;
+}
+
+.txt_color_w{
+    color: white;
+    width: 50%;
+}
+
+.txt_color_g{
+    color: grey;
+    width: 90%;
+}
