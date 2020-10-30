@@ -28,10 +28,21 @@ body{
 }
 
 .px_30{
-    padding: 0 30px;;
+    padding: 0 30px;
+}
+
+.px_10{
+    padding: 0 10px;
 }
 .my_20{
     margin: 0 20px;
+}
+
+.mt_40{
+    margin-top: 40px;
+}
+.mt_20{
+    margin-top: 20px;
 }
 
 .bg_white{
@@ -110,7 +121,7 @@ button.btn.btn-secondary{
 
 /* Site main rules */
 
-
+ /* INNOVATIVE BUSINESS SECTION  */
 
 #customers_data .title{
     padding-top: 4rem;
@@ -130,9 +141,9 @@ button.btn.btn-secondary{
     text-align: center;
 }
 
+ /* DEPLOY SECTION  */
 .deploy_and_scale h2{
     color: #031C4E;
-    font-weight: ;
 }
 
 .deploy_and_scale p{
@@ -172,13 +183,14 @@ button.btn.btn-secondary{
     color: #6C7894;
 }
 
-.developers_section h2{
+ /* DEVELOPERS SECTION  */
+#developers_section h2{
     color: #031C4E;
 }
-.developers_section .txt_top{
+#developers_section .txt_top{
     color: #6C7894;
 }
-.developers_section .txt_bottom {
+#developers_section .txt_bottom {
     color: #031C4E;
     font-weight: bold;
     margin: 20px;
@@ -186,7 +198,6 @@ button.btn.btn-secondary{
 .screenshot_img img{
     height: 300px;
 }
-
 .circle{
   height: 15px;
   width: 15px;
@@ -200,7 +211,9 @@ button.btn.btn-secondary{
 }
 
 /* ICON */
-
+.chevron {
+    font-size: 30px;
+}
 
 .icon::before {
     display: inline-block;
@@ -231,10 +244,23 @@ button.btn.btn-secondary{
     font-weight: 900;
     content: "\f054";
 }
-
-
 /* /ICON */
+#fetures_section h2{
+    color: #031C4E;
+}
+#fetures_section img{
+    height: 50px;
+    margin-top: 30px;
+}
 
-.chevron {
-    font-size: 30px;
+#fetures_section p{
+    color: #6C7894;
+}
+
+#fetures_section h6{
+    color: #031C4E;
+}
+
+#fetures_section .chev_size {
+    font-size: 10px;
 }
