@@ -9,40 +9,43 @@ body{
 
 #site_header{
     background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    background-position: 50% 50%;
 }
 
 /* UTILITY */
+.pt_30{
+    padding-top: 30px;
+}
 .pxy_20{
     padding: 20px;
-}
-
-.my_20{
-    margin: 0 20px;
 }
 
 .py_30{
     padding: 30px 0;
 }
-.pt_30{
-    padding-top: 30px;
+
+.px_30{
+    padding: 0 30px;;
 }
+.my_20{
+    margin: 0 20px;
+}
+
 .bg_white{
     background-color: white;
 }
-
 .bg_grey{
-
     background-color: #F3F5F9;
 }
 /* UTILITY */
 
 /* HEADER */
 .container.header_content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    padding: 40px;
+    margin:0 auto;
 }
 
 .deploy {
@@ -99,15 +102,10 @@ button.btn.btn-secondary{
     font-weight: bold;
 }
 
+.bg_section{
+    background-color: #F3F5F9;
+}
 /* HEADER */
-
-
-
-
-
-
-
-
 
 
 /* Site main rules */
@@ -165,3 +163,78 @@ button.btn.btn-secondary{
     color: #7D88A1;
 }
 
+._card h6{
+    color: #031C4E;
+    font-weight: bold   ;
+}
+
+._card p{
+    color: #6C7894;
+}
+
+.developers_section h2{
+    color: #031C4E;
+}
+.developers_section .txt_top{
+    color: #6C7894;
+}
+.developers_section .txt_bottom {
+    color: #031C4E;
+    font-weight: bold;
+    margin: 20px;
+}
+.screenshot_img img{
+    height: 300px;
+}
+
+.circle{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #66A4FC;
+}
+
+.circle.blue{
+    background-color: #006AFF;
+}
+
+/* ICON */
+
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.chevron::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    content: "\f053";
+    color: #6F7B97;
+}
+
+.icon::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #031C4E;
+}
+
+.chevron::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+}
+
+
+/* /ICON */
+
+.chevron {
+    font-size: 30px;
+}
