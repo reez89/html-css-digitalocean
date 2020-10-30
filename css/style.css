@@ -1,39 +1,42 @@
-.navbar-brand img{
-    width: 150px;
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
-.fl_right{
-    float: right;
+.navbar-brand img{
+    width: 150px;
+    margin-bottom: 5px;
 }
+
 #site_header{
-    height: 500px;
     background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: cover;
 }
-
-.bg_blue{
-    background-color: blue;
+/* UTILITY */
+.pxy_20{
+    padding: 20px;
 }
 
+.my_20{
+    margin: 0 20px;
+}
 
 .bg_green{
- 
     height: 500px;
 }
 
 .bg_red{
- 
     height: 500px;
 }
 .bg_white{
     background-color: white;
 }
+/* UTILITY */
 
+/* HEADER */
 
 #site_header{
     position: relative;
 }
-
 .header_left{
   position: absolute;
   top: 50%;
@@ -67,6 +70,52 @@
     width: 90%;
 }
 
-button.btn.btn-primary.form__ {
-    padding: .375rem 5.75rem !important;
+button.btn.btn-secondary{
+    font-weight: bold;
+    color: #006afd;
+    background-color: white;
+    border-color: #006afd;
+}
+
+.link_container{
+    margin: 0 auto;
+    text-align: center;
+}
+.form_link{
+    padding: 10px;
+    border: 1px inset white;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.bg_link_blue{
+    color: white;
+    font-weight: bold;
+    background-color: #579AFF;
+    
+}
+
+.bg_link_white{
+    color: black;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+
+/* Site main rules */
+
+.site_section{
+    height: 400px;
+
+}
+
+.site_section {
+    height: 400px;
+}
+
+#customers_data .title{
+    padding-top: 4rem;
 }
