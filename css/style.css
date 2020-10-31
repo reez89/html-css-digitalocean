@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    padding-top: 60px;
 }
 
 /* UTILITY */
@@ -45,6 +46,10 @@ body{
 
 .plx_10{
     margin-left: 10px;
+}
+
+.pdbt_20px{
+    padding-bottom: 20px;
 }
 .my_20{
     margin: 0 20px;
@@ -221,7 +226,7 @@ button.btn.btn-secondary{
 
 /* ICON */
 .chevron {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .icon::before {
@@ -315,4 +320,58 @@ button.btn.btn-secondary{
     font-size: 7px;
     display: inline;
     vertical-align: middle;
+}
+
+/* ROCKERBOX SECTION */
+
+#rockerbox_section h2{
+    color: #031C4E;
+    padding: 30px 0 ;
+}
+.rockerbox{
+    display: inline-block;
+    width: 50%;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.p_color_dark{
+    color: #031C4E
+}
+.p_color{
+    padding: 10px 0;
+    color: #6C7894;
+}
+.p_color_founder{
+    color: #6C7894;
+}
+
+.special_p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#rockerbox_section .rockerbox img{
+    height: 30px;
+}
+.content_container_bottom{
+    position: relative;
+}
+.chevron_leftide{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    height: 30px;
+    width: 30px;
+    color: #6F7B97;
+}
+.chevron_rightside{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    height: 30px;
+    width: 30px;
+}
+
+.rockerbox a{
+    margin-bottom: 40px;
 }
