@@ -71,7 +71,7 @@ body{
     background-color: #F3F5F9;
 }
 
-.bg_customers{
+.bg_blue_dark{
     background-color: #0047c5;
 }
 /* UTILITY */
@@ -374,4 +374,49 @@ button.btn.btn-secondary{
 
 .rockerbox a{
     margin-bottom: 40px;
+}
+
+/* GET STARTED SECTION */
+
+#get_started h2{
+    color: white;
+}
+
+#get_started .btn{
+    margin: 20px 0;
+    color: #006AFF;
+    background-color: white;
+}
+
+/* FOOTER */
+
+#site_footer{
+    background-color: hsl(220,95%,8%);
+}
+
+#site_footer .list-group-item {
+    padding: 2px 0;
+    background-color: transparent ;
+    color: white;
+    border-bottom: none;
+    text-transform: capitalize;
+}
+
+#site_footer .list-group-item h5 a{
+    color:white;
+}
+
+.list-group-item.spcial_color a{
+    color: #6C7894;
+}
+
+.icons i{
+    text-align: left;
+}
+
+.color_footer_{
+    color: #6C7894;
+}
+.color_footer_ny{
+    color: #7D88A1;
 }
