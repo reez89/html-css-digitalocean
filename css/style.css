@@ -17,6 +17,9 @@ body{
 }
 
 /* UTILITY */
+.center_size{
+    text-align: center;
+}
 .pt_30{
     padding-top: 30px;
 }
@@ -96,11 +99,10 @@ body{
 
 .txt_color_w{
     color: white;
-    width: 50%;
 }
 
 .txt_color_g{
-    color: grey;
+    color: lightgray;
     width: 90%;
 }
 
@@ -146,7 +148,9 @@ button.btn.btn-secondary{
 
  /* INNOVATIVE BUSINESS SECTION  */
 
-
+#innovative_businesses img{
+   height: 50px;
+}
 
 .logos h4{
     text-align: center;
@@ -163,6 +167,7 @@ button.btn.btn-secondary{
 }
 
  /* DEPLOY SECTION  */
+ 
  #deploy_section img{
      height: 30px;
      margin-bottom: 10px ;
@@ -198,6 +203,7 @@ button.btn.btn-secondary{
 
 
  /* DEVELOPERS SECTION  */
+
 #developers_section h2{
     color: #031C4E;
 }
@@ -210,7 +216,7 @@ button.btn.btn-secondary{
     margin: 20px;
 }
 .screenshot_img img{
-    height: 300px;
+    width: 37% ;
 }
 .circle{
   height: 15px;
@@ -224,63 +230,12 @@ button.btn.btn-secondary{
     background-color: #006AFF;
 }
 
-/* ICON */
-.chevron {
-    font-size: 25px;
+.chevron_leftide.middle_left{
+    left: 30% !important;
 }
-
-.icon::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+.chevron_rightside.middle_right{
+    right: 30% !important;
 }
-
-.chevron::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: bold;
-    content: "\f053";
-    color: #6F7B97;
-}
-
-.icon::after {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    color: #031C4E;
-}
-
-.chevron::after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f054";
-}
-/* /ICON */
-
-
-#fetures_section h2{
-    color: #031C4E;
-}
-#fetures_section img{
-    height: 50px;
-    margin-top: 30px;
-}
-
-#fetures_section p{
-    color: #6C7894;
-}
-
-#fetures_section h6{
-    color: #031C4E;
-}
-
-#fetures_section .chev_size {
-    font-size: 10px;
-}
-
 /* CUSTOMERS SERVICE */
 
 #customers_data {
@@ -330,8 +285,8 @@ button.btn.btn-secondary{
 }
 .rockerbox{
     display: inline-block;
-    width: 50%;
     padding: 40px 0;
+    width: 50%;
     border-radius: 10px;
 }
 .p_color_dark{
@@ -350,8 +305,11 @@ button.btn.btn-secondary{
     font-size: 15px;
     margin-bottom: 0px;
 }
+#rockerbox_section .img_container_w{
+    width: 100%;
+}
 #rockerbox_section .rockerbox img{
-    height: 30px;
+   height: 25px;
 }
 .content_container_bottom{
     position: relative;
@@ -363,6 +321,7 @@ button.btn.btn-secondary{
     height: 30px;
     width: 30px;
     color: #6F7B97;
+    padding-right: 5px;
 }
 .chevron_rightside{
     position: absolute;
@@ -370,6 +329,7 @@ button.btn.btn-secondary{
     right: 20%;
     height: 30px;
     width: 30px;
+    padding-left: 5px;
 }
 
 .rockerbox a{
@@ -420,3 +380,23 @@ button.btn.btn-secondary{
 .color_footer_ny{
     color: #7D88A1;
 }
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:400px){
+    .chevron_leftide,
+    .chevron_rightside,
+    .chevron_rightside.middle_left,
+    .chevron_rightside.middle_right{
+        display: none;
+    }
+
+    .screenshot_img img{
+        height: 150px ;
+    }
+    #rockerbox_section .rockerbox img{
+        height: 20px;
+    }
+}
+
