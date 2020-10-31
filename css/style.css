@@ -22,22 +22,36 @@ body{
 .pxy_20{
     padding: 20px;
 }
-
+.py_5{
+    padding: 5px 0;
+}
 .py_30{
     padding: 30px 0;
 }
 
 .px_30{
-    padding: 0 30px;
+    margin: 0 30px;
 }
 
+.pxr_25{
+    padding-right: 25px;
+}
+.pxl_25{
+    padding-left: 25px;
+}
 .px_10{
     padding: 0 10px;
+}
+
+.plx_10{
+    margin-left: 10px;
 }
 .my_20{
     margin: 0 20px;
 }
-
+.my_40{
+    margin: 40px 0;;
+}
 .mt_40{
     margin-top: 40px;
 }
@@ -50,6 +64,10 @@ body{
 }
 .bg_grey{
     background-color: #F3F5F9;
+}
+
+.bg_customers{
+    background-color: #0047c5;
 }
 /* UTILITY */
 
@@ -123,9 +141,7 @@ button.btn.btn-secondary{
 
  /* INNOVATIVE BUSINESS SECTION  */
 
-#customers_data .title{
-    padding-top: 4rem;
-}
+
 
 .logos h4{
     text-align: center;
@@ -142,27 +158,28 @@ button.btn.btn-secondary{
 }
 
  /* DEPLOY SECTION  */
+ #deploy_section img{
+     height: 30px;
+     margin-bottom: 10px ;
+}
 .deploy_and_scale h2{
     color: #031C4E;
 }
 
-.deploy_and_scale p{
+.deploy_and_scale p{    
     color: #6C7894;
 }
 
 .row_items{
-    margin-top: 40px;
+    margin-top: 30px;
 }
-._card{
-    width: 40%;
-    display: inline-block;
+.row_items h6{
+    color: #031C4E;
+    font-weight: bold;
 }
-
-._card img{
-    height: 35px;
-    margin-bottom: 5px;
+.row_items p{
+    color: #6C7894;
 }
-
 .list_item ul{
     list-style: none;
     border-left: 1px solid #7D88A1;
@@ -174,14 +191,6 @@ button.btn.btn-secondary{
     color: #7D88A1;
 }
 
-._card h6{
-    color: #031C4E;
-    font-weight: bold   ;
-}
-
-._card p{
-    color: #6C7894;
-}
 
  /* DEVELOPERS SECTION  */
 #developers_section h2{
@@ -245,6 +254,8 @@ button.btn.btn-secondary{
     content: "\f054";
 }
 /* /ICON */
+
+
 #fetures_section h2{
     color: #031C4E;
 }
@@ -263,4 +274,45 @@ button.btn.btn-secondary{
 
 #fetures_section .chev_size {
     font-size: 10px;
+}
+
+/* CUSTOMERS SERVICE */
+
+#customers_data {
+    padding-bottom: 4rem;
+}
+#customers_data .title{
+    padding-top: 4rem;
+}
+#customers_data h2{
+    color: white;
+}
+.border_bottom{
+    border-bottom: 1px solid grey;
+}
+
+.city_pseudo{
+    color: #cdd8f0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.city_name{
+    color: #a1b4e3;
+}
+
+.test_speed{
+    color: green;
+}
+
+.city_name,
+.test_speed{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.chev_test_speed{
+    font-size: 7px;
+    display: inline;
+    vertical-align: middle;
 }
