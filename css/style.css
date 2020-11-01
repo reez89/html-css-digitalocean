@@ -80,6 +80,14 @@ body{
 /* UTILITY */
 
 /* HEADER */
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #031C4E;
+}
+.fa-chevron-down{
+    color: #031C4E;
+    font-size: 12px;
+    
+}
 .container.header_content {
     padding: 40px;
     margin:0 auto;
@@ -117,6 +125,16 @@ button.btn.btn-secondary{
     margin: 0 auto;
     text-align: center;
 }
+.sign_up_google{
+    position: relative;
+}
+.link_container img{
+    position: absolute;
+    top:50%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 20px;
+}
 .form_link{
     padding: 10px;
     border: 1px inset white;
@@ -134,7 +152,7 @@ button.btn.btn-secondary{
 }
 
 .bg_link_white{
-    color: black;
+    color: #7D88A1;
     font-weight: bold;
 }
 
@@ -216,12 +234,12 @@ button.btn.btn-secondary{
     margin: 20px;
 }
 .screenshot_img img{
-    width: 37% ;
+    width: 37% ;’
 }
 .circle{
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
+  height:15px;
+  width:15px;
+  border-radius:50%;
   display: inline-block;
   border: 1px solid #66A4FC;
 }
@@ -380,8 +398,53 @@ button.btn.btn-secondary{
 .color_footer_ny{
     color: #7D88A1;
 }
+footer{
+    position: relative;
+}
+footer .bot{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 82px;
+}
+footer img{
+height: 40px;
+}
+footer .bot{
+    background-color: #579AFF;
+    display: inline-block;
+}
 
+.box_bot {
+    background:white;
+    border-radius: 10px;
+    width:250px;
+    height:50px;
+    position: absolute;
+    display: inline-block;
+    bottom: 13px;
+    right: 105px;
+}
 
+.box_bot:after {
+    content:"";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 10px;
+    left: 245px; /* 1px buffer for zooming problems while rendering*/
+    border-width: 15px;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    transform:rotate(180deg);
+}
+
+.screenshot_img img{
+    height: 150px ;
+}
+#rockerbox_section .rockerbox img{
+    height: 20px;
+}
 /* MEDIA QUERY */
 
 @media screen and (max-width:400px){
@@ -391,12 +454,20 @@ button.btn.btn-secondary{
     .chevron_rightside.middle_right{
         display: none;
     }
+}
 
-    .screenshot_img img{
-        height: 150px ;
+@media screen and (min-width:200px) and (max-width:576px) {
+    footer .bot{
+        position: absolute;
+        bottom: 80px;
+        left: 10px;
     }
-    #rockerbox_section .rockerbox img{
-        height: 20px;
+    .box_bot{
+        left: 10px;
     }
 }
+
+
+
+
 
